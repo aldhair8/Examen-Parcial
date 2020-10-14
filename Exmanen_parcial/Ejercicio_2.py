@@ -13,5 +13,5 @@ def AumentoaProfesoresAh():
          salaMin3= (salaMin)+(salaMin*0.8)
          print("el salario es:", salaMin3)
      else:
-         print("No hay salario para ti")
+         print("Tu salario es :", salaMin)
 AumentoaProfesoresAh()
