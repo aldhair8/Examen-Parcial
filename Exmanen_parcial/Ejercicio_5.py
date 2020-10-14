@@ -5,8 +5,8 @@ def algoritmo5Dpl():
     # Proceso
     print ("Año " + " : " + " Salario")
     salarioIncrementoAh = salarioAh * 0.10
-    for incrementoAh in range(1, 7):
+    for incrementoAh in range(1,7):
         salarioAh = salarioIncrementoAh + salarioAh
-        print(incrementoAh , "   :  ", salarioAh)
-    print("Gracias....")
+        print (incrementoAh , "   :  ", salarioAh)
+    print ("El salario en el sexto alo es:", salarioAh)
 algoritmo5Dpl()
