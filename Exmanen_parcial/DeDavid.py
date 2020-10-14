@@ -109,7 +109,7 @@ def algoritmo3Dpl():
 def algoritmo4Dpl():
     ## Dato de entrada
     print("************ Interpretador de Operaciones Aritmeticas ************")
-    print("Que operacion aritmetica aras:\n1. [+]\n2. [-]\n3. [*]\n4. [/]\n5. [^]\n")
+    print("Que operacion aritmetica aras:\n1. [+]\n2. [-]\n3. [*]\n4. [/]\n5. [**]\n")
     signo = int(input("> "))
     print("Cual es el valor a: ")
     a = int(input("> "))
@@ -119,13 +119,13 @@ def algoritmo4Dpl():
     if signo == 1:
         operacion = a + b
     elif signo == 2:
-        operacion = a + b
+        operacion = a - b
     elif signo == 3:
-        operacion = a + b
+        operacion = a * b
     elif signo == 4:
-        operacion = a + b
+        operacion = a / b
     elif signo == 5:
-        operacion = a + b
+        operacion = a ** b
     else:
         print("Erorr")
 
